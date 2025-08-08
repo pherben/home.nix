@@ -4,8 +4,8 @@
   programs.git = {
     enable = true;
 
-    userName = "Keiran";
-    userEmail = "keircn@proton.me";
+    userName = "Pherben";
+    userEmail = "q4ow@proton.me";
 
     extraConfig = {
       init.defaultBranch = "main";

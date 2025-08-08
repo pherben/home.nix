@@ -3,6 +3,7 @@
 {
   programs.helix = {
     enable = true;
+
     settings = {
       theme = "catppuccin_mocha";
       editor = {
@@ -18,7 +19,9 @@
         };
         lsp.display-messages = true;
       };
+    };
 
+    languages = {
       language-server = {
         ts = {
           command = "typescript-language-server";
