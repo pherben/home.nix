@@ -14,7 +14,6 @@
 
       set fish_pager_color_prefix cyan
       set fish_color_autosuggestion brblack
-      set GOPATH $XDG_DATA_HOME/go
       set -x XDG_STATE_HOME "$HOME/.local/state"
 
       alias l='eza -lh --icons=auto'
