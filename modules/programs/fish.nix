@@ -25,6 +25,7 @@
       alias la='eza -la --icons=auto'
       alias lsd='eza -ld --icons=auto */'
       alias nd="nix develop --command fish"
+      alias hm="nix run $HOME/.config/home-manager/#keiran"
       alias lg lazygit
       alias pnpm bun
       alias yarn bun
