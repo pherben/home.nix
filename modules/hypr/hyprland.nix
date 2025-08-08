@@ -11,7 +11,9 @@
       "$menu" = "wofi --show drun";
 
       env = [
+        "XCURSOR_THEME,Catppuccin-Mocha-Lavender-Cursors"
         "XCURSOR_SIZE,24"
+        "HYPRCURSOR_THEME,Catppuccin-Mocha-Lavender-Cursors"
         "HYPRCURSOR_SIZE,24"
         "QT_QPA_PLATFORMTHEME,qt6ct"
       ];
