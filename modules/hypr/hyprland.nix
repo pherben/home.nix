@@ -11,9 +11,7 @@
       "$menu" = "wofi --show drun";
 
       env = [
-        "XCURSOR_THEME,Catppuccin-Mocha-Lavender-Cursors"
-        "XCURSOR_SIZE,24"
-        "HYPRCURSOR_THEME,Catppuccin-Mocha-Lavender-Cursors"
+        "HYPRCURSOR_THEME,Catppuccin-Mocha-Lavender"
         "HYPRCURSOR_SIZE,24"
         "QT_QPA_PLATFORMTHEME,qt6ct"
       ];
@@ -46,8 +44,8 @@
         gaps_in = 5;
         gaps_out = 20;
         border_size = 2;
-        "col.active_border" = "rgba(33ccffee) rgba(00ff99ee) 45deg";
-        "col.inactive_border" = "rgba(595959aa)";
+        "col.active_border" = "rgba(b4befeff) rgba(89b4faff) 45deg";
+        "col.inactive_border" = "rgba(313244ff)";
         resize_on_border = false;
         allow_tearing = true;
         layout = "dwindle";
@@ -56,15 +54,15 @@
       ecosystem.no_update_news = true;
 
       decoration = {
-        rounding = 16;
-        rounding_power = 1;
-        active_opacity = 1.0;
-        inactive_opacity = 0.8;
+        rounding = 12;
+        rounding_power = 2;
+        active_opacity = 0.98;
+        inactive_opacity = 0.85;
         blur = {
           enabled = true;
-          size = 3;
-          passes = 1;
-          vibrancy = 0.1696;
+          size = 4;
+          passes = 2;
+          vibrancy = 0.15;
         };
       };
 
