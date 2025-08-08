@@ -90,6 +90,7 @@
         "$mainMod, P, exec, hyprpicker"
         ", Print, exec, $HOME/.local/bin/hyprshare -m window"
         ", Insert, exec, $HOME/.local/bin/hyprshare -m region"
+        "$mainMod, Print, exec, $HOME/.local/bin/hyprshare -m output"
         "$mainMod, left, movefocus, l"
         "$mainMod, right, movefocus, r"
         "$mainMod, up, movefocus, u"
