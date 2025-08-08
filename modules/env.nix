@@ -4,6 +4,7 @@
   home.sessionVariables = {
     NIXOS_OZONE_WL = "1";
     EDITOR = "hx";
+    
     XDG_CONFIG_HOME = "${config.home.homeDirectory}/.config";
     XDG_CONFIG_DIR = "${config.home.homeDirectory}/.config";
     XDG_DATA_HOME = "${config.home.homeDirectory}/.local/share";
@@ -25,5 +26,7 @@
     GTK_THEME = "Adwaita:dark";
     QT_QPA_PLATFORMTHEME = "gtk2";
     QT_STYLE_OVERRIDE = "Adwaita-Dark";
+
+    GOPATH = "${config.home.homeDirectory}/.local/share/go";
   };
 }
